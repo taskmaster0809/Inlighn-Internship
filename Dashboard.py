@@ -7,7 +7,7 @@ st.markdown(
     <iframe 
         src="{power_bi_url}" 
         width="100%" 
-        height="900" 
+        height="500" 
         frameborder="0" 
         allowfullscreen="true">
     </iframe>

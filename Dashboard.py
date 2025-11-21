@@ -11,10 +11,11 @@ def dashboard_page():
             src="{power_bi_url}" 
             width="100%" 
             height="600" 
-            style="border:none;">
+            frameborder="0" 
+            allowfullscreen="true">
         </iframe>
         """,
-        height=650,
+        unsafe_allow_html=True
     )
 
 dashboard_page()

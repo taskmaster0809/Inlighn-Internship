@@ -9,8 +9,8 @@ def dashboard_page():
         f"""
         <iframe 
             src="{power_bi_url}" 
-            width="600" 
-            height="373.5" 
+            width="100%" 
+            height="100%" 
             frameborder="0" 
             allowfullscreen="true">
         </iframe>

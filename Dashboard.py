@@ -16,3 +16,5 @@ def dashboard_page():
         """,
         height=650,
     )
+
+dashboard_page()

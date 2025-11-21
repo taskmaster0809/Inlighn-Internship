@@ -1,21 +1,17 @@
 import streamlit as st
 
-def dashboard_page():
-    st.title("E-Commerce Dashboard")
+power_bi_url = "https://app.powerbi.com/view?r=eyJrIjoiNWJlZmE2ZjYtYTQwYi00ZDcxLTkzOGMtYTIwNTFmNWY0MWNlIiwidCI6IjMxY2MwODdiLWJhNDQtNGMyOS1hNmRkLWZkZjYwMDk0ZjNiZiJ9"
 
-    power_bi_url = "https://app.powerbi.com/view?r=eyJrIjoiNWJlZmE2ZjYtYTQwYi00ZDcxLTkzOGMtYTIwNTFmNWY0MWNlIiwidCI6IjMxY2MwODdiLWJhNDQtNGMyOS1hNmRkLWZkZjYwMDk0ZjNiZiJ9"
+st.markdown(
+    f"""
+    <iframe 
+        src="{power_bi_url}" 
+        width="100%" 
+        height="900" 
+        frameborder="0" 
+        allowfullscreen="true">
+    </iframe>
+    """,
+    unsafe_allow_html=True
+)
 
-    st.markdown(
-        f"""
-        <iframe 
-            src="{power_bi_url}" 
-            width="100vh" 
-            height="100%" 
-            frameborder="0" 
-            allowfullscreen="true">
-        </iframe>
-        """,
-        unsafe_allow_html=True
-    )
-
-dashboard_page()

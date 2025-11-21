@@ -9,7 +9,7 @@ def dashboard_page():
         f"""
         <iframe 
             src="{power_bi_url}" 
-            width="100%" 
+            width="100vh" 
             height="100%" 
             frameborder="0" 
             allowfullscreen="true">
